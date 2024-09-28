@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+.App {
+  padding: 10px;
+  max-width: 60%;
+  margin: auto;
+}
+
+.App > h1 {
+  text-align: center;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 3em; 
+}
+
+.story {
+  position: relative;
+  padding: 1em;
+  box-shadow: 1px 1px 1px 2px skyblue;
+  margin-bottom: 2em;
+  border-radius: 1em;
+}
+
+.story span.delete {
+  position: absolute;
+  width: 1.5rem;             
+  height: 1.5rem;             
+  text-align: center;
+  line-height: 1.5rem;        
+  top: 0;
+  right: 0;
+  color: purple;
+  border-radius: 50%;         
+  cursor: pointer;
+  font-size: 2rem;            
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+
+.story_header {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+}
+
+.story_header h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+}
+
+.story_header h1 > a:hover {
+  color: purple; 
+  text-decoration: underline; 
+}
+
+.story_creator {
+  display: block;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.story_image {
+  max-width: 20%;
+}
+
+.story_image img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.story_link {
+  color: black;
+  text-decoration: none;
+}
+
+.info {
+  color: black;
+}
+
+.main_title {
+  line-height: 1em;
+  font-size: 200px;
+  user-select: none;
+  margin-top: -15px;
+  color: indigo;
+}
