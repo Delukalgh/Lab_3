@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Story from './components/story'; 
+import Story from './components/Story'; 
 import news_feed from './sample_news_stories.json'; 
 
 function App() {
